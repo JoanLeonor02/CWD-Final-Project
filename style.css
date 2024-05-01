@@ -1,0 +1,427 @@
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(33, 33, 48);
+}
+
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo-container{
+    height: 100%;
+    display: table;
+}
+
+.logo-container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+}
+
+.logo-container h1 span{
+    font-family: "lobster", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 670px){
+    header{
+        min-height: 300px;
+    }
+} 
+
+@media (max-width:786px){
+    .container{
+        padding: 20px;
+    }
+}
+
+header {
+    background: url(images/Laguna_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.row h3{
+    color: rgb(236, 143, 3);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+}
+
+.row span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+}
+
+.updates{
+    background-color: rgb(8, 71, 80);
+}
+
+.photo-container{
+    margin-left: 4%;
+}
+
+.row{
+    margin: 40px auto;
+}
+
+.row img{
+    height: 200px;
+    width: 200px;
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+
+.flow-text{
+    color: rgb(236, 143, 3);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.flow-text span{
+    color: rgb(7, 7, 7);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+}
+
+.parallax-container{
+    height: 900px;
+}
+
+.shadow1{
+    background: rgb(175, 185, 185);
+    height: 100px;
+    color: rgb(236, 143, 3);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+}
+
+.shadow1 span{
+    background: rgb(175, 185, 185);
+    height: 100px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+}
+
+.body{
+    background-color: rgb(175, 185, 185);
+}
+
+.areas{
+    font-family: "Poppins", sans-serif;
+    font-weight: 50;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: rgb(7, 156, 124);
+    transition: 2s linear;
+    background: linear-gradient(45deg, darkblue orange);
+    padding: 15px 9%;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+
+.areas .row{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.areas .box-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+}
+
+.areas .box-container img{
+    width: 1000px;
+    height: 250px;
+}
+
+.areas .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 2px;
+    background: #e2d8d8;
+    text-align: center;
+    padding: 10px 5px;
+    margin-left: 0;
+}
+
+.areas .box-container .box img{
+    height: 100px;
+    width: 100px;
+    margin-top: 5%;
+}
+
+.areas .box-container .box h3{
+    font-family: "Anton", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    color: rgb(31, 14, 61);
+    font-size: 20px;
+    padding: 10px 0;
+    letter-spacing: normal;
+}
+
+.areas .box-container .box p{
+    color: #080808;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 8%;
+}
+
+.areas .box-container .box a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 10px;
+}
+.card-panel{
+    background-color: rgb(235, 227, 221);
+}
+
+.card-panel h4{
+    font-family: "Anton", sans-serif;
+    font-weight: 10;
+    color: rgb(15, 15, 15);
+}
+
+.card-panel p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 10;
+    color: rgb(5, 7, 43);
+    font-size: 13px;
+    text-align: center;
+}
+
+.areas .box-container .box btn{
+    margin-top: 10px;
+    display: inline-block;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.areas .box-container .box:hover{
+    letter-spacing: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
+.unique{
+    color: rgb(236, 143, 3);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+}
+.unique span{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(238, 130, 175, 0.185);
+}
+
+.card-title{
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+
+.card-content span{
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    letter-spacing: normal;
+}
+
+.card-content p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+    text-align: justify;
+}
+
+.card-action p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.card-action a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.shadow2{
+    background: rgb(221, 129, 8);
+    height: 100px;
+    font-family: "Roboto", sans-serif;
+    font-size: 400%;
+}
+
+.container section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.tabs .indicator{
+    background-color: orangered;
+}
+
+.nuance{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(247, 109, 17);
+}
+
+.nuance .heading{
+    width: 25%;
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.nuance .heading .card-panel{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 100%;
+}
+
+.nuance .heading .h2{
+    font-size: 40px;
+}
+
+.tours{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.places{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.places h2{
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-radius: 1px;
+    padding: 20px 20px;
+    background-color: rgb(14, 107, 107);
+}
+
+.places img{
+    width: 250px;
+    height: 200px;
+}
+
+.places a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 10px;
+   padding: 10px 20px;
+   background-color: rgb(116, 84, 5);
+}
+
+.places a:hover{
+    background-color: rgb(243, 199, 118);
+    letter-spacing: 3px;
+    transform: 0.6s;
+}
+
+.attraction1{
+    color: rgb(236, 143, 3);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.attraction1 span{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4cm;
+    font-size: 60px;
+}
+
+.attraction2{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    background-color: antiquewhite;
+}
+
+.attraction2 h2{
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+}
+
+.attraction2 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 50%;
+
+}
+
+.page-footer{
+    height: 350px;
+}
+
+.page-footer img{
+    height: 200px;
+    width: 200px;
+}
+
